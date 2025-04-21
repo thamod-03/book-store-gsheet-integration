@@ -106,3 +106,11 @@ await fetch("YOUR_SCRIPT_URL", {
 - GitHub: [thamod-03](https://github.com/thamod-03)
 
 ---
+
+## 📘 License
+
+This project is licensed for educational use only.
+
+---
+
+Feel free to fork, modify, and expand this project if you're working on something similar!
