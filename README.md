@@ -100,11 +100,6 @@ await fetch("YOUR_SCRIPT_URL", {
 
 ---
 
-## 📸 Screenshots
-
-(You can include screenshots here)
-
----
 
 ## 📌 Author
 
