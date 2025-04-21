@@ -1,0 +1,168 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+  font-family: sans-serif;
+}
+
+nav {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  transition: background 0.3s ease;
+  z-index: 1000;
+  font-family: var(--navbar-font);
+  font-weight: 600;
+  padding: 15px 50px;
+  background-color: black;
+}
+
+ul {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  list-style: none;
+}
+
+ul li {
+  font-size: 20;
+}
+
+ul a {
+  text-decoration: none;
+  color: white;
+}
+
+body {
+  font-family: var(--text-font);
+}
+
+.cart-container {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  padding: 0 50px;
+}
+
+.scroll-box {
+  width: 100%;
+  height: 55vh;
+  overflow-y: auto;
+  overflow-x: hidden;
+  padding: 10px;
+}
+
+.cart-item {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  padding: 10px 20px;
+}
+
+.cart-item img {
+  width: 50px;
+  height: 80px;
+}
+
+.cart-item .book-content {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.cart-item .price-remove {
+  line-height: 30px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+}
+
+.cart-item .remove-btn {
+  padding: 4px 8px;
+  background-color: rgba(255, 0, 0, 0.76);
+  border: none;
+  outline: none;
+  cursor: pointer;
+  color: white;
+  border-radius: 10px;
+}
+
+.remove-btn:hover {
+  background-color: rgba(61, 0, 0, 0.658);
+}
+
+.final-checkout {
+  display: flex;
+  flex-direction: column;
+  padding: 10px 50px;
+  gap: 10px;
+}
+
+.final-checkout .subtotal {
+  display: flex;
+  justify-content: space-between;
+}
+
+.final-checkout .checkout-btn {
+  width: 100%;
+  padding: 10px;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  background-color: rgb(55, 0, 255);
+  font-size: 18px;
+  font-weight: 600;
+  border-radius: 12px;
+  color: white;
+}
+
+.final-checkout .checkout-btn:hover {
+  background-color: rgba(55, 0, 255, 0.829);
+}
+
+.final-checkout a{
+  text-decoration: none;
+  color: white;
+  text-align: center;
+}
+
+.final-checkout .redirect-home {
+  text-align: center;
+}
+
+.redirect-home a {
+  text-decoration: none;
+  color: rgb(55, 0, 255);
+}
+
+footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 50px;
+  color: white;
+  background-color: black;
+  font-weight: 600;
+  width: 100vw;
+  position: absolute;
+  bottom: 0;
+}
+
+footer .social-links {
+  display: flex;
+  gap: 20px;
+}
+
+.social-links a {
+  text-decoration: none;
+  color: white;
+}

@@ -1,0 +1,124 @@
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Book Store | Checkout</title>
+    <link rel="stylesheet" href="./styles/checkout-style.css" />
+    <link
+      rel="apple-touch-icon"
+      sizes="180x180"
+      href="./favicons/apple-touch-icon.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./favicons/favicon-32x32.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="16x16"
+      href="./favicons/favicon-16x16.png"
+    />
+    <link rel="manifest" href="./favicons/site.webmanifest" />
+  </head>
+  <body>
+    <h1>Checkout Page</h1>
+    <div class="checkout-container">
+      <h3>Cash on Delivery</h3>
+      <p class="total"></p>
+      <p class="count"></p>
+      <div class="user-form">
+        <div class="form-left-side">
+          <p>Personal Details</p>
+          <p>Please fill out all the fields.</p>
+        </div>
+        <div class="form-right-side">
+          <form id="checkout-form" method="post">
+            <div class="name">
+              <label for="name">Full Name</label><br />
+              <input
+                type="text"
+                name="name"
+                id="name"
+                required
+                class="input-container"
+              />
+            </div>
+            <div class="email">
+              <label for="email">Email Address</label><br />
+              <input
+                type="email"
+                name="email"
+                id="email"
+                required
+                class="input-container"
+              />
+            </div>
+            <div class="phone">
+              <label for="phone">Phone Number</label><br />
+              <input
+                type="number"
+                name="phone"
+                id="phone"
+                placeholder="0xx xxx xxxx"
+                required
+                class="input-container"
+              />
+            </div>
+            <div class="address">
+              <label for="address">Address / Street</label><br />
+              <input
+                type="text"
+                name="address"
+                id="address"
+                required
+                class="input-container"
+              />
+            </div>
+            <div class="city">
+              <label for="city">City</label><br />
+              <input
+                type="text"
+                name="city"
+                id="city"
+                required
+                class="input-container"
+              />
+            </div>
+            <div class="province">
+              <label for="province">Province</label><br />
+              <input
+                type="text"
+                name="province"
+                id="province"
+                required
+                class="input-container"
+              />
+            </div>
+            <div class="zip-code">
+              <label for="zipcode">Zip Code</label><br />
+              <input
+                type="text"
+                name="zipcode"
+                id="zipcode"
+                required
+                class="input-container"
+              />
+            </div>
+            <div class="term-agree">
+              <label for="agree">
+                <input type="checkbox" name="agree" id="agree" required /> I am
+                agree on above details and shipping policy <br />
+              </label>
+            </div>
+            <input type="submit" value="Place an Order" />
+          </form>
+        </div>
+      </div>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <script src="./checkout.js"></script>
+  </body>
+</html>

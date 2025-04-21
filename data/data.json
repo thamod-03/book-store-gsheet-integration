@@ -1,0 +1,74 @@
+[
+  {
+    "id": 1,
+    "name": "Business Success",
+    "description": "Proven strategies to achieve sustainable growth and long-term business success.",
+    "photo": "./src/books/book1.jpg",
+    "newPrice": 16.99,
+    "oldPrice": 27.99
+  },
+  {
+    "id": 2,
+    "name": "Evolve as a Brand",
+    "description": "Master the art of branding, transformation, and business growth strategies.",
+    "photo": "./src/books/book2.jpg",
+    "newPrice": 20.99,
+    "oldPrice": 45.99
+  },
+  {
+    "id": 3,
+    "name": "Walk into the Shadow",
+    "description": "A journey through mystery, secrets, and overcoming hidden fears.",
+    "photo": "./src/books/book3.jpg",
+    "newPrice": 14.99,
+    "oldPrice": 25.99
+  },
+  {
+    "id": 4,
+    "name": "Hide and Seek",
+    "description": "A suspenseful tale of pursuit, secrets, and uncovering hidden truths.",
+    "photo": "./src/books/book4.jpg",
+    "newPrice": 17.99,
+    "oldPrice": 25.99
+  },
+  {
+    "id": 5,
+    "name": "Soul",
+    "description": "A deep exploration of the human spirit, emotions, and purpose.",
+    "photo": "./src/books/book5.jpg",
+    "newPrice": 19.99,
+    "oldPrice": 35.99
+  },
+  {
+    "id": 6,
+    "name": "Daughters of Men",
+    "description": "A powerful story of women's resilience and their untold struggles.",
+    "photo": "./src/books/book6.jpg",
+    "newPrice": 12.99,
+    "oldPrice": 19.99
+  },
+  {
+    "id": 7,
+    "name": "The Blackwood",
+    "description": "A dark, eerie tale of supernatural forces lurking in the forest.",
+    "photo": "./src/books/book7.jpg",
+    "newPrice": 19.99,
+    "oldPrice": 29.99
+  },
+  {
+    "id": 8,
+    "name": "Dark Assassin",
+    "description": "A skilled assassin faces moral dilemmas while navigating a dangerous world.",
+    "photo": "./src/books/book8.jpg",
+    "newPrice": 24.99,
+    "oldPrice": 39.99
+  },
+  {
+    "id": 9,
+    "name": "The Art of Photography",
+    "description": "A guide to capturing moments and mastering the craft of photography.",
+    "photo": "./src/books/book9.jpg",
+    "newPrice": 42.99,
+    "oldPrice": 49.99
+  }
+]

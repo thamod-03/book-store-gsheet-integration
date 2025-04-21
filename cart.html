@@ -1,0 +1,79 @@
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Book Store | Cart</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
+    />
+    <link rel="stylesheet" href="./styles/cart-style.css" />
+    <link
+      rel="apple-touch-icon"
+      sizes="180x180"
+      href="./favicons/apple-touch-icon.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./favicons/favicon-32x32.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="16x16"
+      href="./favicons/favicon-16x16.png"
+    />
+    <link rel="manifest" href="./favicons/site.webmanifest" />
+  </head>
+  <body>
+    <nav>
+      <ul>
+        <li>
+          <a href="/index.html"><i class="fa-solid fa-house"></i> Home</a>
+        </li>
+        <li>
+          <a href="/cart.html"
+            ><i class="fa-solid fa-cart-shopping"></i> Cart</a
+          >
+        </li>
+      </ul>
+    </nav>
+    <h1 style="text-align: center; margin-top: 60px">Your Cart</h1>
+    <div class="cart-container scroll-box"></div>
+    <div class="final-checkout">
+      <div class="subtotal">
+        <div class="Shipping">
+          <p>Subtotal</p>
+          <p style="font-size: small; color: gray">
+            Shipping and taxes included
+          </p>
+        </div>
+        <div class="total">
+          <p class="total-price"></p>
+        </div>
+      </div>
+      <a href="./checkout.html"
+        ><button class="checkout-btn">Checkout</button></a
+      >
+      <p class="redirect-home">
+        or <a href="./index.html">Continue Shopping</a>
+      </p>
+    </div>
+    <footer>
+      <p>© Book Store 2025</p>
+      <div class="social-links">
+        <a href=""><i class="fa-brands fa-facebook"></i></a>
+        <a href=""><i class="fa-brands fa-youtube"></i></a>
+        <a href=""><i class="fa-brands fa-twitter"></i></a>
+        <a href=""><i class="fa-brands fa-instagram"></i></a>
+      </div>
+    </footer>
+    <script src="cart.js"></script>
+  </body>
+</html>
