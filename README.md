@@ -1,5 +1,5 @@
 
-# Book Store - Remastered
+# Book Store - Web Application
 
 A simple one-product e-commerce website built as a university assignment. Users can browse a selection of books, add them to a cart, and place an order, which is submitted to a Google Spreadsheet using Google Apps Script.
 
